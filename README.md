@@ -9,7 +9,7 @@ A) Auto-correlation of seismic signals:
 
 B)Estimated source wavelet:
 
-<img src="Source wavelet (positive-negative time).png" width="600" height="400">
+<img src="Source wavelet (positive-negative time).png" width="800" height="200">
 
 
 
