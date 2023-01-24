@@ -11,6 +11,10 @@ B)Estimated source wavelet:
 
 <img src="Source wavelet (positive-negative time).png" width="600" height="300">
 
+B)Amplitude spectrum of the source:
+
+<img src="amplitude spectrum.png" width="600" height="300">
+
 
 
 
