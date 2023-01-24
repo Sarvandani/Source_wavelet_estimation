@@ -79,7 +79,7 @@ x=10;y=10;%starting screen position
     set(gca,'FontName','Times New Roman')
     xlabel('Offset [km]', 'FontName','Times New Roman','FontSize', fs)
     ylabel('Time [s]', 'FontName','Times New Roman','FontSize', fs)
-    lab=strcat('AUTO-CROSS-CORRELATION');
+    lab=strcat('Auto-correlation');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
     title('AUTO-CORRELATION')
@@ -134,7 +134,7 @@ x=10;y=10;%starting screen position
     set(gca,'FontName','Times New Roman')
     xlabel('Time [s]', 'FontName','Times New Roman','FontSize', fs)
     ylabel('Amplitude', 'FontName','Times New Roman','FontSize', fs)
-    lab=strcat('Amplitude_spectrum_source_wavelet');
+    lab=strcat('Source wavelet');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
     title('Source wavelet(Amplitude vs Time after summation)')
@@ -166,7 +166,7 @@ x=10;y=10;%starting screen position
     set(gca,'FontName','Times New Roman')
     xlabel('Time [s]', 'FontName','Times New Roman','FontSize', fs)
     ylabel('Amplitude', 'FontName','Times New Roman','FontSize', fs)
-    lab=strcat('Amplitude_spectrum_source_wavelet_positive_negative_lag');
+    lab=strcat('Source wavelet (positive-negative time)');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
     title('Source wavelet (positive-negative time)')
@@ -218,10 +218,11 @@ x=10;y=10;%starting screen position
     set(gca,'FontName','Times New Roman')
 %     xticks(0:5:f);
 %     xlim([0 40])
-    lab=strcat('spec_dB_Hz_manual');
+    lab=strcat('power spectral density');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% amplitude spectrum
 plot_spectral_attributes_amp(t_new(1,1),DDauto_symmetric,dt,f/2,1);
 grid on
 x=10;y=10;%starting screen position
@@ -243,7 +244,7 @@ x=10;y=10;%starting screen position
     set(gca,'FontName','Times New Roman')
 %     xticks(0:2.5:f);
 %     xlim([0 20])
-    lab=strcat('amp_freq');
+    lab=strcat('amplitude spectrum');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
     title('Amplitude Spectrum')
@@ -268,7 +269,7 @@ x=10;y=10;%starting screen position
 %     xticks(0:2.5:f);
 %     xlim([0 20])
 %     yticks(-180:90:180);
-    lab=strcat('phase_freq');
+    lab=strcat('phase spectrum');
     set(gcf, 'PaperPositionMode', 'auto' );
     print(gcf,'-r300','-dpng',lab)
     title('Phase Spectrum')
