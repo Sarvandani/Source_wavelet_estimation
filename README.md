@@ -2,6 +2,7 @@
 The autocorrelation of seismic signals can provide some preliminary information about the source. 
 
 The code `SOURCE_WAVELET_ESTIMATION.m` was written to auto-correlate two files of seismic data in Segy format (`synthetic_data1.segy` and `synthetic_data2.segy`). The source wavelet is estimated based on the autocorrelation, and its amplitude and phase spectra can be found in the folder. 
+The estmated source can be found in the folder `SOURCE_OUTPUT_FILE`. 
 
 A) Auto-correlation of seismic signals:
 
