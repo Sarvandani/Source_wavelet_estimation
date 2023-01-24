@@ -5,6 +5,7 @@ The code `SOURCE_WAVELET_ESTIMATION.m` was written to auto-correlate two files o
 
 A) Auto-correlation of seismic signals:
 
+<img src="Auto-correlation.png" width="800" height="600">
 
 
 
