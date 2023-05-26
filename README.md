@@ -37,6 +37,6 @@ C)Phase spectrum of the source:
 
 `DISCLAIMER`:  I don't warrant this code in any way whatsoever. This code is provided "as-is" to be used at your own risk.
 
-This work was done as part of my PhD, I would be happy if you could cite my PhD thesis (will be publihsed soon):
+This work was done as part of my PhD, I would be happy if you could cite my PhD thesis:
 Seismic tomography of an amagmatic ultra-slow spreading ridge
 https://theses.hal.science/tel-04020124/
